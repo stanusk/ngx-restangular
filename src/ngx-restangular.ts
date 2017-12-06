@@ -488,7 +488,7 @@ function providerConfig($http) {
           }
         });
         
-        return restangularizeResponse(subject, true, filledArray);
+        return restangularizeResponse(subject, true, filledArray).toPromise();
       }
       
       function withHttpConfig(httpConfig) {
