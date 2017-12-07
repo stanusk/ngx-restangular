@@ -1,1 +1,1 @@
-export { isArray, includes, isUndefined, isFunction, defaults, each, extend, has, initial, clone, isNull, map, isBoolean, keys, reduce, forEach, isObject, bind, union, values, pick, every, get, omit, find, last, isEmpty, isNumber } from "lodash";
+export { isArray, includes, isUndefined, isFunction, defaults, each, extend, has, initial, clone, cloneDeep, isNull, map, isBoolean, keys, reduce, forEach, isObject, bind, union, values, pick, every, get, omit, find, last, isEmpty, isNumber } from "lodash";

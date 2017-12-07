@@ -11,6 +11,7 @@ exports.extend = lodash_1.extend;
 exports.has = lodash_1.has;
 exports.initial = lodash_1.initial;
 exports.clone = lodash_1.clone;
+exports.cloneDeep = lodash_1.cloneDeep;
 exports.isNull = lodash_1.isNull;
 exports.map = lodash_1.map;
 exports.isBoolean = lodash_1.isBoolean;
