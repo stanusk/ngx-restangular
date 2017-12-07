@@ -296,8 +296,8 @@ function providerConfig($http) {
         elem[config.restangularFields.doGETLIST] = elem[config.restangularFields.customGETLIST];
       }
 
-      function copyRestangularizedElement(fromElement, toElement = {}) {
-        var copiedElement = assign(toElement, fromElement);
+      function copyRestangularizedElement(element) {
+        var copiedElement = _.cloneDeep(element);
         return restangularizeElem(copiedElement[config.restangularFields.parentResource],
           copiedElement, copiedElement[config.restangularFields.route], true);
       }

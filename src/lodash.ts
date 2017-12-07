@@ -9,6 +9,7 @@ export {
   has,
   initial,
   clone,
+  cloneDeep,
   isNull,
   map,
   isBoolean,
