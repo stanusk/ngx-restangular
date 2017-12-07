@@ -314,7 +314,7 @@ function providerConfig($http) {
                         subject.error(response);
                     }
                 });
-                return restangularizeResponse(subject, true, filledArray).toPromise();
+                return restangularizeResponse(subject, true, filledArray);
             }
             function withHttpConfig(httpConfig) {
                 this[config.restangularFields.httpConfig] = httpConfig;
