@@ -1,0 +1,50 @@
+{
+  "name": "ngx-restangular",
+  "version": "3.0.0",
+  "description": "ngx-restangular",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/2muchcoffeecom/ngx-restangular.git"
+  },
+  "keywords": [
+    "ng2-rest",
+    "ng2-restangular",
+    "ngx-restangular",
+    "angular2-restangular",
+    "angular4-restangular",
+    "angular2-rest",
+    "angular4-rest",
+    "restangular",
+    "angular 2 restangular",
+    "angular 4 restangular",
+    "angular 2 rest",
+    "angular 4 rest"
+  ],
+  "author": "logvinoleg89 <logvinoleg89@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/2muchcoffeecom/ngx-restangular/issues"
+  },
+  "homepage": "https://github.com/2muchcoffeecom/ngx-restangular#readme",
+  "peerDependencies": {
+    "@angular/core": "^6.0",
+    "@angular/common": "^6.0",
+    "@angular/platform-browser": "^6.0",
+    "core-js": ">=2.4.1",
+    "rxjs": "^6.0"
+  },
+  "dependencies": {
+    "@types/lodash": "^4.14.62",
+    "tslib": "^1.9.0"
+  },
+  "main": "bundles/ngx-restangular.umd.js",
+  "module": "fesm5/ngx-restangular.js",
+  "es2015": "fesm2015/ngx-restangular.js",
+  "esm5": "esm5/ngx-restangular.js",
+  "esm2015": "esm2015/ngx-restangular.js",
+  "fesm5": "fesm5/ngx-restangular.js",
+  "fesm2015": "fesm2015/ngx-restangular.js",
+  "typings": "ngx-restangular.d.ts",
+  "metadata": "ngx-restangular.metadata.json",
+  "sideEffects": false
+}

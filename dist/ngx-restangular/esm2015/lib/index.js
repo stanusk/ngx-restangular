@@ -1,0 +1,9 @@
+/**
+ * @fileoverview added by tsickle
+ * @suppress {checkTypes} checked by tsc
+ */
+export { RestangularModule } from './ngx-restangular.module';
+export { Restangular } from './ngx-restangular';
+export { RestangularHttp } from './ngx-restangular-http';
+
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiaW5kZXguanMiLCJzb3VyY2VSb290Ijoibmc6Ly9uZ3gtcmVzdGFuZ3VsYXIvIiwic291cmNlcyI6WyJsaWIvaW5kZXgudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6Ijs7OztBQUFBLE9BQU8sRUFBQyxpQkFBaUIsRUFBQyxNQUFNLDBCQUEwQixDQUFDO0FBQzNELE9BQU8sRUFBQyxXQUFXLEVBQUMsTUFBTSxtQkFBbUIsQ0FBQztBQUM5QyxPQUFPLEVBQUMsZUFBZSxFQUFDLE1BQU0sd0JBQXdCLENBQUMiLCJzb3VyY2VzQ29udGVudCI6WyJleHBvcnQge1Jlc3Rhbmd1bGFyTW9kdWxlfSBmcm9tICcuL25neC1yZXN0YW5ndWxhci5tb2R1bGUnO1xuZXhwb3J0IHtSZXN0YW5ndWxhcn0gZnJvbSAnLi9uZ3gtcmVzdGFuZ3VsYXInO1xuZXhwb3J0IHtSZXN0YW5ndWxhckh0dHB9IGZyb20gJy4vbmd4LXJlc3Rhbmd1bGFyLWh0dHAnOyJdfQ==
