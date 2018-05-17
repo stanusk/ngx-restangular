@@ -265,7 +265,7 @@ function providerConfig($http) {
 
       // Promises
       function restangularizeResponse(subject, isCollection, valueToFill) {
-        return subject.pipe(filter(res => !!res));
+        return subject.pipe(filter(res => !!res)).toPromise();
       }
 
       function resolvePromise(subject, response, data, filledValue) {
